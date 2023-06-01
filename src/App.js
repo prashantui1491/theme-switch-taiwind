@@ -1,7 +1,11 @@
 import React from 'react';
+// import components
+import Hero from './components/Hero'
 
 const App = () => {
-  return <div>react app</div>;
+  return <>
+    <Hero/>
+  </>;
 };
 
 export default App;
